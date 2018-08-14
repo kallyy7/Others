@@ -8,17 +8,17 @@
     {
         public static void Main()
         {
-            List<int> numbers = Console.ReadLine()
+            var numbers = Console.ReadLine()
                 .Split()
                 .Select(int.Parse)
-                .ToList();
+                .ToArray();
             bool swapped;
 
             do
             {
                 swapped = false;
 
-                for (int i = 0; i < numbers.Count - 1; i++)
+                for (int i = 0; i < numbers.Length - 1; i++)
                 {
                     int leftElement = numbers[i];
                     int rightElement = numbers[i + 1];
@@ -35,7 +35,7 @@
             Console.WriteLine(string.Join(" ", numbers));
         }
 
-        private static void Swap(List<int> numbers, int leftIndex)
+        private static void Swap(int[] numbers, int leftIndex)
         {
             int temp = numbers[leftIndex];
             numbers[leftIndex] = numbers[leftIndex + 1];

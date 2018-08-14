@@ -8,19 +8,19 @@
     {
         public static void Main()
         {
-            List<int> numbers = Console.ReadLine()
+            var numbers = Console.ReadLine()
                 .Split()
                 .Select(int.Parse)
-                .ToList();
+                .ToArray();
             int minNumber = int.MaxValue;
             int minIndex = 0;
 
-            for (int a = 0; a < numbers.Count; a++)
+            for (int a = 0; a < numbers.Length; a++)
             {
                 int unsortedIndex = a;
                 bool swaped = false;
 
-                for (int b = 0; b < numbers.Count; b++)
+                for (int b = 0; b < numbers.Length; b++)
                 {
                     int currentNumber = numbers[b];
 
@@ -41,7 +41,7 @@
             Console.WriteLine(string.Join(" ", numbers));
         }
 
-        private static void Swap(List<int> numbers, int minIndex, int unsortedIndex)
+        private static void Swap(int[] numbers, int minIndex, int unsortedIndex)
         {
             int temp = numbers[unsortedIndex];
             numbers[unsortedIndex] = numbers[minIndex];
