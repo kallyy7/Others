@@ -1,6 +1,6 @@
-## <a href="" > Sorting Algorithms </a>
-#### - <a href="" > Bubble Sort </a>
-#### - <a href="" > Selection Sort </a>
-#### - <a href="" > Insertion Sort </a>
-#### - <a href="" > Merge Sort </a>
-#### - <a href="" > Quick Sort </a>
+##  :low_brightness: Sorting Algorithms :low_brightness:
+- [x] :bulb: **Bubble Sort**
+- [x] :bulb: **Selection Sort**
+- [x] :bulb: **Insertion Sort**
+- [x] :bulb: **Merge Sort**
+- [x] :bulb: **Quick Sprt**
