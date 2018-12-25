@@ -1,4 +1,4 @@
-##  :low_brightness: Sorting Algorithms :low_brightness:
+## :bar_chart: Sorting Algorithms
 - [x] :bulb: **Bubble Sort**
 - [x] :bulb: **Selection Sort**
 - [x] :bulb: **Insertion Sort**
