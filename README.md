@@ -3,4 +3,4 @@
 - [x] :bulb: **Selection Sort**
 - [x] :bulb: **Insertion Sort**
 - [x] :bulb: **Merge Sort**
-- [x] :bulb: **Quick Sprt**
+- [x] :bulb: **Quick Sort**
